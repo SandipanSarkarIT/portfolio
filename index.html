@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div id="header"> 
+    <div class="container"> 
+        <nav>
+            <img src="images/Sandipan 3.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Sandipan</span><br>Form Durgapur</h1>
+         </div>
+     </div>
+  </div> 
+
+    <!------------ About Start------------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mondal.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an Information Technology student with a strong focus on front-end web development, currently specializing in Advanced JavaScript and CSS. My learning journey includes mastering modern JavaScript features (ES6+), asynchronous programming, and modular coding practices.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Languages</span><br>JavaScript, Core Java</li>
+                    <li><span>Frameworks</span><br>React.js, Tailwind CSS, Bootstrap</li>
+                    <li><span>Tools</span><br>CSS, HTML5, Ms Word, Excel, Power Point,<br> Ms Access, Photoshop, CorelDraw, Tally </li>
+                    <li><span>Platforms</span><br>Visual Studio Code, Chrome DevTools, <br>Git, Github</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>1/6/2025 to 1/12/2025</span><br>Frontend Development Internship<br>at Unified Mentor Pvt Ltd.</li>
+                    <li><span>January 2-January 31, 2025</span><br>Student Management System Intern<br>Ardent Computech Pvt.Ltd</li>
+                    <li><span>Oct-2022-Sep-2023</span><br>Teaching Experience For Computer Basic<br> And Graphic Design Form Unique Computer</li>
+                    
+                </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023 - 2026</span><br>Bengal Institute of Technology<br>Information Technology </li>
+                    <li><span>2019 - 2022</span><br>Pandaveswar College<br>Bachelor of Arts (HONOURS) - CGPA: 8.18</li>
+                    <li><span>2022</span><br>Unique Computer Center<br>Web Design, Graphic Design, Computer Fundamentals  </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!--------------- About End ---------------->
+
+   <!--------------- Services Start---------------->
+
+<div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Frontend Developer</h2>
+                <p>I provide front-end web development services using React.js, JavaScript, HTML, CSS, Photoshop to create responsive, user-friendly, and visually engaging websites and web applications!</p>
+                <a href="https://en.wikipedia.org/wiki/Front-end_web_development#:~:text=Front%2Dend%20web%20development%20is,and%20interact%20with%20that%20website." target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Wed Design</h2>
+                <p>I design responsive, modern websites using React.js, JavaScript, HTML, CSS, Photoshop,CorelDraw combining clean code with creative visuals for a user-friendly, high-performance online experience.!</p>
+                <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-computer"></i>
+                <h2>Computer Trainer</h2>
+                <p>I am a computer teacher who helps students learn coding, Ms word, Excel, Power point, Ms Access, Photoshop,CorelDraw, Pagemaker and technology concepts to prepare them for the modern world. !</p>
+                <a href="https://drive.google.com/file/d/1rb8LbQvDqf-XhNlQvAzn2vYY2JW3zHAX/view?usp=sharing" target="_blank">Learn more</a>
+            </div>
+        </div>
+     </div>
+</div>
+   <!--------------- Services End---------------->
+
+   <!--------------- Portfolio ---------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+             <img src="images/work-12.jpg" >
+             <div class="layer">
+                <h3>Img gallery website</h3>
+                <p>Responsive Img gallery website showcasing my projects, skills, and experience using HTML, CSS, and JavaScript.</p>
+                <a href="https://sandipimagegallery.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+            </div>
+            <div class="work">
+             <img src="images/work-6.png">
+              <div class="layer">
+                <h3>Register & login</h3>
+                <p>Developed user-friendly register and login form using HTML, CSS, JavaScript, with validation features.</p>
+                <a href="https://regisandip.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+            </div>
+            <div class="work">
+             <img src="images/work-5.jpg" alt="">
+              <div class="layer">
+                <h3>Weather App</h3>
+                <p>Responsive Weather App project showcasing my projects, skills, and experience using HTML, CSS, and JavaScript.</p>
+                <a href="https://sandipweatherapp.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+   <!--------------- Portfolio End ---------------->
+
+   <!--------------- Contact Start---------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sandi2000sarkar@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 9064479284</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sandipan-sarkar-29640929a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/sandipan.sarkar.77398" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sandip_sarkar_it/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
+                </div>
+                <a href="images/Sandipan_Sarkar_Resume .pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright sandipan. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+   </div>
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzuGYV0kcYE8UTK9aBR9hIl_o0yM9QWAxPuxtBXEGJX0EN-UddAgMB1zSTy9zmIdR20/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
